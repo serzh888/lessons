@@ -43,9 +43,11 @@ font-style: normal;
 font-weight: 700;
 font-size: 34px;
 line-height: 46px;
-text-align: center;
-padding-top: 100px;
-padding-bottom: 30px;
+text-align: center ;
+}
+.titlemargin {
+    padding-top: 100px;
+    padding-bottom: 28px;
 }
 .title-p {
     font-family: 'Open Sans';
@@ -54,12 +56,17 @@ font-weight: 400;
 font-size: 18px;
 line-height: 25px;
 text-align: center;
+padding-top: 28px;
+padding-bottom: 100px;
 }
 .divclass {
     padding-top: 44px;
     padding-bottom: 78px;
 }
-
+.tatleskills {
+    padding-top:2px ;
+    padding-bottom: 44px;
+}
 .divam2 {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -109,6 +116,7 @@ letter-spacing: 0.1em;
     .containernav {
         margin-top: 22px;
         margin-bottom: 34px;
+        color: #828282
        
     }
     .contasnerhome {
@@ -123,6 +131,10 @@ letter-spacing: 0.1em;
     margin-top: 100px;
     margin-bottom: 83px;
 
+}
+.titlepor {
+    padding-top:118px ;
+    padding-bottom:68px ;
 }
 .textskillsp {
     padding: 43px 609px 79px 608px;
