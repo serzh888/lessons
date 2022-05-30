@@ -120,12 +120,11 @@ letter-spacing: 0.1em;
     .containernav {
         margin-top: 22px;
         margin-bottom: 34px;
-        color: black;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
        
     }
     .ccc {
-        color: black;
+         color:  #828282;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     .contasnerhome {
