@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+        font-size: 18px;
+        line-height: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        max-width: 1445px;
+    }    
+    .container {
+        max-width: 946px;
+        margin:0 auto;
+    }
+header nav {
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+li {
+    display: inline-block;
+}
+.title-page{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #070707;
+}
+h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47.3392px;
+    line-height: 64px;
+}
+.title {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 30px;
+}
+.title-p {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+}
+.divclass {
+    padding-top: 44px;
+    padding-bottom: 78px;
+}
+.divam1 {
+    padding-top: 28px;
+    padding-bottom: 113px;
+}
+.divam2 {
+    padding-top: 113px;
+    padding-bottom: 113px;
+}
+.divam3 {
+    padding-top: 113px;
+    padding-bottom: 110px;
+}
+
+.divport{
+    padding-top: 15px;
+   padding-bottom: 128px;
+}
+.divport1{
+    padding-top: 7px;
+    padding-bottom: 136px;
+}
+.titleskills {
+    display: inline-block;
+    text-align: center
+}
+.titlesocial {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+
+text-align: center;
+letter-spacing: 0.1em;
+}
+.titleb {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.1em
+    ;}
+    #Aboutme {
+        background-color: #F6F6F6;
+    }
+    .containernav {
+        margin-top: 22px;
+        margin-bottom: 34px;
+       
+    }
+    .contasnerhome {
+        margin-top: 34px;
+        margin-bottom:100px;
+    }
+  .containerabout {
+      margin-top: 100px;
+    margin-bottom: 100px;
+  }
+.containerskills {
+    margin-top: 100px;
+    margin-bottom: 83px;
+
+}
+.textskillsp {
+    padding: 43px 609px 79px 608px;
+}
+#Portfolo {
+    background-color:  #F6F6F6;
+}
+.contport1 {
+    margin-top: 67px;
+    margin-bottom: 15px;
+}
+.contaipor2 {
+    padding-top: 128px;
+    padding-bottom: 7px;
+}
+.divport2 {
+    padding-top: 7px;
+    padding-bottom:136px;
+}
+.marginfooter {
+    margin-top: 100px;
+    margin-bottom: 159px;
+}
+.divcon {
+    padding-top: 21px;
+    padding-bottom: 86px;
+}
+.divcon1 {
+    padding-top: 86px;
+    padding-bottom: 46px;
+}
+.divcon2 {
+    padding-top: 57px;
+    padding-bottom: 70px;
+}
