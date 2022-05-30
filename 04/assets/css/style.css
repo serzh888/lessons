@@ -112,9 +112,7 @@ letter-spacing: 0.1em;
     text-align: center;
     letter-spacing: 0.1em
     ;}
-    #Aboutme {
-        background-color: #F6F6F6;
-    }
+    
     .containernav {
         margin-top: 22px;
         margin-bottom: 34px;
@@ -128,10 +126,12 @@ letter-spacing: 0.1em;
   .containerabout {
       margin-top: 100px;
     margin-bottom: 100px;
+    background: #F6F6F6;
   }
 .containerskills {
     margin-top: 100px;
     margin-bottom: 83px;
+    
 
 }
 .titlepor {
