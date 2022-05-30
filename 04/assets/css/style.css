@@ -114,9 +114,8 @@ letter-spacing: 0.1em;
     line-height: 25px;
     
     text-align: center;
-    letter-spacing: 0.1em
-    ;}
-    
+    padding-bottom: 15PX;
+}
     .containernav {
         margin-top: 22px;
         margin-bottom: 34px;
@@ -177,10 +176,12 @@ letter-spacing: 0.1em;
     padding-bottom: 31px;
 }
 .divcon2 {
-    padding-bottom: 44px;
+    padding-bottom:15PX;
 }
 .imgdenis {
    text-align: center;
+   padding-top: 10px;
+   padding-bottom: 30PX;
 }
 .titlecont {
     padding-bottom: 21px;
@@ -193,4 +194,9 @@ letter-spacing: 0.1em;
 }
 .divam3 {
     padding-bottom: 100px;
+}
+.condiv1 {
+    text-align: center;
+   max-width: 340px;
+   margin: o auto;
 }
