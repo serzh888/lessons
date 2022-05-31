@@ -9,7 +9,7 @@ body {
         line-height: 25px;
         font-family: 'Courier New', Courier, monospace;
         color: black;
-        max-width: 1445px;
+        
     }    
     .container {
         max-width: 946px;
@@ -59,10 +59,12 @@ font-weight: 400;
 font-size: 18px;
 line-height: 25px;
 text-align: center ;
+text-decoration: underline;
 }
 .ppading {
     padding-top: 15px;
-  padding-bottom: 128px
+  text-decoration: underline;
+  
 }
 .divclass1 {
     padding-bottom: 44px;
@@ -96,6 +98,9 @@ text-align: center ;
     display: inline-block;
     text-align: center
 }
+.titleckells2 {
+    text-align: center;
+}
 .titlesocial {
     font-family: 'Open Sans';
 font-style: normal;
@@ -119,16 +124,17 @@ letter-spacing: 0.1em;
     .containernav {
         margin-top: 22px;
         margin-bottom: 34px;
-
-       
     }
+    .titletext {
+        text-decoration: none;
+    } 
     .ccc {
          color:  #828282;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     .contasnerhome {
         margin-top: 34px;
-        margin-bottom:100px;
+        
     }
   .containerabout {
       margin-top: 100px;
@@ -143,7 +149,7 @@ letter-spacing: 0.1em;
 }
 .titlepor {
     padding-top:118px ;
-    padding-bottom:68px ;
+   
 }
 .textskillsp {
     padding: 43px 609px 79px 608px;
@@ -156,9 +162,10 @@ letter-spacing: 0.1em;
     margin-bottom: 15px;
 }
 .contaipor2 {
-    padding-top: 128px;
+
     padding-bottom: 7px;
 }
+
 .divport2 {
     padding-top: 7px;
     padding-bottom:136px;
@@ -178,11 +185,7 @@ letter-spacing: 0.1em;
 .divcon2 {
     padding-bottom:15PX;
 }
-.imgdenis {
-   text-align: center;
-   padding-top: 10px;
-   padding-bottom: 30PX;
-}
+
 .titlecont {
     padding-bottom: 21px;
 }
@@ -199,4 +202,17 @@ letter-spacing: 0.1em;
     text-align: center;
    max-width: 340px;
    margin: o auto;
+}
+.denpd {
+    padding-top: 33px;
+    padding-bottom: 39px;
+}
+.imgnovak {
+max-width: 100%;
+}
+.paddabode {
+    padding-top: 23px;
+}
+.paastars {
+    padding-top: 60px;
 }
