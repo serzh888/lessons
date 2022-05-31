@@ -69,10 +69,18 @@ padding-top: 44px;
   
 }
 .divclass1 {
-    padding-bottom: 44px;
+    padding-bottom:px;
 }
 .divclass {
-    padding-bottom: 78px;
+    padding-bottom:px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
 }
 .tatleskills {
     padding-top:2px ;
@@ -288,4 +296,21 @@ color: #FFFFFF;
 .buttco {
     background-color: #070707;
 border-radius: 20px;
+}
+.aaatex {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+}
+.reetex {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
 }
