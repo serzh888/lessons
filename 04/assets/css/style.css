@@ -154,8 +154,9 @@ letter-spacing: 0.1em;
 .textskillsp {
     padding: 43px 609px 79px 608px;
 }
-#Portfolo {
+.containerport {
     background-color:  #F6F6F6;
+    
 }
 .contport1 {
     margin-top: 67px;
@@ -208,7 +209,7 @@ letter-spacing: 0.1em;
     padding-bottom: 39px;
 }
 .imgnovak {
-max-width: 100%;
+  width: 100%;
 }
 .paddabode {
     padding-top: 23px;
