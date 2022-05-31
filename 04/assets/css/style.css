@@ -54,12 +54,14 @@ text-align: center ;
 }
 .title-p {
     font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 25px;
-text-align: center ;
-text-decoration: underline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #828282;
+padding-top: 44px;
 }
 .ppading {
     padding-top: 15px;
@@ -96,10 +98,15 @@ text-decoration: underline;
 }
 .titleskills {
     display: inline-block;
-    text-align: center
+    text-align: center;
+    padding-right: 90px;
 }
 .titleckells2 {
     text-align: center;
+    padding-top: 78px;
+    width: max-content;
+
+   
 }
 .titlesocial {
     font-family: 'Open Sans';
@@ -107,9 +114,9 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 25px;
-
 text-align: center;
-letter-spacing: 0.1em;
+
+
 }
 .titleb {
     font-family: 'Open Sans';
@@ -119,7 +126,7 @@ letter-spacing: 0.1em;
     line-height: 25px;
     
     text-align: center;
-    padding-bottom: 15PX;
+    padding-top:30px;
 }
     .containernav {
         margin-top: 22px;
@@ -170,10 +177,13 @@ letter-spacing: 0.1em;
 .divport2 {
     padding-top: 7px;
     padding-bottom:136px;
+    width: 100%;
 }
 .marginfooter {
     margin-top: 100px;
     margin-bottom: 159px;
+    max-width: 341px;
+    text-align: center;
 }
 .divcon {
     padding-top: 21px;
@@ -184,7 +194,8 @@ letter-spacing: 0.1em;
     padding-bottom: 31px;
 }
 .divcon2 {
-    padding-bottom:15PX;
+   padding-top: 30px;
+
 }
 
 .titlecont {
@@ -206,16 +217,26 @@ letter-spacing: 0.1em;
 }
 .denpd {
     padding-top: 33px;
-    padding-bottom: 39px;
+    
 }
 .imgnovak {
   width: 100%;
 }
 .paddabode {
     padding-top: 23px;
+    max-width : 120px;
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
 }
 .paastars {
     padding-top: 60px;
+    
+}
+.paastars2 {
+    padding-top: 70px;
 }
 .imgdenis {
     font-family: 'Open Sans';
@@ -225,4 +246,28 @@ font-size: 18px;
 line-height: 25px;
 text-align: center;
 padding-top: 21px;
+}
+
+.imfi {
+    padding-left: 30px;
+    text-align: center;
+}
+.imfi2 {
+    padding-left: 30px;
+}
+.imfi3 {
+    padding-left: 30px;
+}
+.imfi4 {
+    padding-left: 50px;
+}
+.linri {
+    padding-left: 2px;
+    padding-right: 55px;
+}
+.with {
+    width: max-content;
+}
+.linri1 {
+    padding-right:55px;
 }
