@@ -271,3 +271,19 @@ padding-top: 21px;
 .linri1 {
     padding-right:55px;
 }
+.texxx {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+.buttco {
+    background-color: #070707;
+}
