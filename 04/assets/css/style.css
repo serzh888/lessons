@@ -281,9 +281,11 @@ line-height: 25px;
 
 text-align: center;
 letter-spacing: 0.1em;
+text-decoration: none;
 
 color: #FFFFFF;
 }
 .buttco {
     background-color: #070707;
+border-radius: 20px;
 }
