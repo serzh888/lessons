@@ -296,6 +296,8 @@ color: #FFFFFF;
 .buttco {
     background-color: #070707;
 border-radius: 20px;
+padding: 7px 25px;
+border: none
 }
 .aaatex {
     font-family: 'Open Sans';
