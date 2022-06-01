@@ -25,7 +25,7 @@
     
  }
 .bloc {
-   display: inline-block;
+   
    padding:  15px 0 70px;
    width: max-content;
 }
@@ -45,4 +45,17 @@ h2 {
 .con2 {
     margin: 0 auto;
 max-width: 260px;
+}
+
+.fac {
+    padding-left: 50px;
+}
+.twi {
+    padding-left: 33px;
+}
+.ggg {
+    padding-left: 35px;
+}
+.drr {
+    padding-left: 23px;
 }
