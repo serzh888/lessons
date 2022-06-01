@@ -27,7 +27,7 @@
 .bloc {
    display: inline-block;
    margin: 15px 0 70px;
-   width:260px;
+   width:max-content;
 }
 .colorw {
     color: #ffffff;
@@ -40,7 +40,7 @@ h2 {
 }
 .marfa {
    
-  padding-left: 40px;
+  padding-right: 40px;
 }
 .con2 {
     margin: 0 auto;
