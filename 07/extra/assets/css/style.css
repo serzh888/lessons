@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1166px;
+    margin: 0 auto;
+}
+.main {
+   border: 25px;color: blueviolet;
+    background-color: aqua;
+    padding-top: 130px;
+    padding-bottom: 120px;
+} 
+.weather {
+    border: 2px solid white;
+
+}
+.weather-type {
+    border: 2px solid white;
+        text-align: center;
+    width: 25%;
+    display: inline-block;
+}
