@@ -1,0 +1,48 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body {
+    font-family: "Open Sans", "Courier", "monospace";
+    font-size: 15px;
+    font-weight: 400;
+    
+ }
+ .main {
+     padding-top: 117px;
+     padding-bottom: 36px;
+    background-color: #121116;
+     
+     
+ }
+ .container {
+     width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+ }
+.bloc {
+   display: inline-block;
+   margin: 15px 0 70px;
+   width:260px;
+}
+.colorw {
+    color: #ffffff;
+}
+span {
+    color: #1e98bc;
+}
+h2 {
+    margin: 40px 0 17px;
+}
+.marfa {
+   
+  padding-left: 40px;
+}
+.con2 {
+    margin: 0 auto;
+max-width: 260px;
+}
