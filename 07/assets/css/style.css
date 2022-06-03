@@ -23,18 +23,44 @@ header {
     text-align: center;
     
 }
+header nav{
+    padding-top: 9px;
+}
 .inlblok{
     display: inline-block;
+    
 }
-
+.nav{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #2F281E;
+text-decoration: none;
+}
+.nav2{
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FF9900;
+  text-decoration: none;
+}
 li{
     display: inline-block;
         
 }
 .imgpadd{
     width: max-content;
-    padding-top: 7px;
-    padding-bottom: 7px;
+}
+.img1{
+   padding-top: 7px;
+   padding-right: 13px;
+}
+.img2{
+    padding-top: 10px;
 }
 header nav{
     padding: 9px 198px;
@@ -51,6 +77,7 @@ padding-top: 97px;
 .left{
 width: 500px;
 height: 301px;
+display:inline-block
 }
 .toptext{
     padding-top: 30px;
@@ -59,6 +86,7 @@ height: 301px;
     width: 180px;
     height: 50px;
     background-color:#FF9900;
+    
 }
 .battontop{
     margin-top: 20px;
@@ -66,7 +94,39 @@ height: 301px;
 .rihht{
     width: 500px;
     height: 301px;
+    display:inline-block
+
+}
+.butthed{
+    width: 110px;
+    height: 46px;
+    background-color: #FF9900;
+    
+}
+.butthed2{
+    width: 110px;
+    height: 46px;
+    margin-right: 36px;
 
 }
 
+.texbutt{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+text-decoration: none;
 
+}
+.texbutt2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F281E;
+    text-decoration: none;
+
+}
