@@ -16,12 +16,17 @@ color: #000000;
 }
 .containerim{
     margin: 17px 120px;
+    display:inline-block
 }
 
 header {
     text-align: center;
     
 }
+.inlblok{
+    display: inline-block;
+}
+
 li{
     display: inline-block;
         
