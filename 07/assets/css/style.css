@@ -65,6 +65,11 @@ li{
 header nav{
     padding: 9px 198px;
 }
+.left{
+    width: 50%;
+    display:inline-block;
+    
+    }
 h1 {
     font-family: 'Montserrat';
 font-style: normal;
@@ -74,35 +79,42 @@ line-height: 54px;
 color: #2F281E;
 
 }
-.left{
-width: 500px;
-height: 301px;
-display:inline-block;
 
-}
 .toptext{
-    padding-top: 30px;
+    padding-top:30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    
 }
 .containerbutt{
 
     width: 180px;
     height: 50px;
     background-color:#FF9900;
+    border: none;
     
 }
 .battontop{
-    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 100px;
 }
 .rihht{
     width: 500px;
     height: 301px;
     display:inline-block;
     
+    
 }
 .butthed{
     width: 110px;
     height: 46px;
     background-color: #FF9900;
+    border: none;
+    margin-bottom: 100px;
    
     
 }
@@ -111,6 +123,7 @@ display:inline-block;
     height: 46px;
     margin-right: 36px;
     text-decoration: none;
+    border: none;
 
 }
 
@@ -137,3 +150,4 @@ text-decoration: none;
 .con1-2{
     margin-top: 70px;
 }
+    
