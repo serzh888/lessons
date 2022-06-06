@@ -74,34 +74,15 @@ display: none;
 label{
     padding: 12px 16px 14px 12px;
     display: block;
+  
 }
-
 .color2
 {
     background-color:#88839E;
    
     margin:  0 130px 0px 129px;
 }
-.color3{
-    background-color:  #88839E;
-    margin:  0 130px 0px 129px;
-    
-}
-.color4{
-    background-color:#88839E;
-    
-   
-    margin:  0 130px 0px 129px;
-}
-.color5{
-    background-color:  #88839E;
-    margin:  0 130px 0px 129px;
-}
-.color6{
-    background-color: #88839E;
-    margin:  0 130px 0px 129px;
 
-}
 .footer h2{
     padding: 12px 223px 12px 204px;
     margin: 45px 130px 45px 129px;
@@ -151,4 +132,13 @@ div label:hover{
     border: 3px solid #FFFFFF;
     border-left: 0;
     border-right: 0;
+}
+div label:active{
+    background-color: #625E77;
+    border: 3px solid #ec0c0c;
+    border-left: 0;
+    border-right: 0;
+}
+.color2:nth-child(2){
+    color: #d7c8c8;
 }
