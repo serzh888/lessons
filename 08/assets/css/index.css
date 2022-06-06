@@ -64,21 +64,22 @@ main,
    
 }
 
-input{
+input
+{
 
-width: 19px;
-height: 19px;
-background-color: #FFFFFF;
-display: inline-block;
-margin: 12px 16px 14px 12px;
-border: none;
-color: black;
+
+display: none;
+
+}
+label{
+    padding: 12px 16px 14px 12px;
+    display: block;
 }
 
 .color2
 {
-    background-color:#7A7593;
-    color: #9B96AC;
+    background-color:#88839E;
+   
     margin:  0 130px 0px 129px;
 }
 .color3{
@@ -87,11 +88,9 @@ color: black;
     
 }
 .color4{
-    background-color: #625E77;
+    background-color:#88839E;
     
-    border: 3px solid #FFFFFF;
-    border-left: 0;
-    border-right: 0;
+   
     margin:  0 130px 0px 129px;
 }
 .color5{
@@ -99,9 +98,9 @@ color: black;
     margin:  0 130px 0px 129px;
 }
 .color6{
-    background-color: #7A7593;;
+    background-color: #88839E;
     margin:  0 130px 0px 129px;
-color: #9B96AC;;
+
 }
 .footer h2{
     padding: 12px 223px 12px 204px;
@@ -115,29 +114,41 @@ color: #9B96AC;;
     background: #4A4F56
  
 }
-.color2-6{
-    color: #9B96AC;
-    text-decoration: line-through;
 
-    
-}
-.dekor{
-    text-decoration: line-through;
-}
-main ,
-.color2 :hover{
-    text-decoration:none
-}
-main ,
-.color6 :hover{
-    text-decoration: none
-}
-.psevdo::before
-{
-    content:url(../image/Vector\ 1.png);
 
-}
 .main 
 div :second-child {
     background-color: #88839E;;
+}
+.chek{
+    width: 19px;
+    height: 19px;
+    background-color: white;
+    margin-right: 10px;
+    position: relative;
+    vertical-align: middle;
+}
+input:checked + label .chek::before{
+    content:url(../image/Vector\ 1.png);
+    position: absolute;
+    left: 3px;
+    top: 4px;
+}
+input:checked + label .dekor,
+input:checked + label .dekor span
+{
+    text-decoration: line-through;
+    
+}
+input:checked + label,
+input:checked + label .dekor span{
+    background-color:#7A7593;
+    color: #9B96AC;
+}
+
+div label:hover{
+    background-color: #625E77;
+    border: 3px solid #FFFFFF;
+    border-left: 0;
+    border-right: 0;
 }
