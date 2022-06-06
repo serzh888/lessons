@@ -8,12 +8,14 @@ body{
     
 }
 .container {
-    text-align: center;
+    
     Width: 793px;
+    margin: 0 auto;
 }
 h1,
 h2{
     color: #FF8984;
+    text-align: center;
 }
 h1{
     margin: 19px 270px 4px 247px;
