@@ -63,6 +63,7 @@ main,
 
    
 }
+
 input{
 
 width: 19px;
@@ -107,10 +108,11 @@ color: #9B96AC;;
     margin: 45px 130px 45px 129px;
     color:  #FF8984; 
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    background: #4A4F56
  
 }
 .color2-6{
@@ -133,5 +135,9 @@ main ,
 .psevdo::before
 {
     content:url(../image/Vector\ 1.png);
-    vertical-align: middle;
+
+}
+.main 
+div :second-child {
+    background-color: #88839E;;
 }
