@@ -1,4 +1,7 @@
-* {
+* ,
+::after,
+::before
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -51,19 +54,7 @@ p{
 .main{
     background-color: #3B3F45;
 }
-body,
-.main
-.color1,
-.color2,
-.color3,
-.color4,
-.color5,
-.color6
-{
 
-text-align: left;
-
-}
 
 main,
 .color1{
@@ -124,7 +115,17 @@ line-height: 21px;
 .color2-6{
     color: #9B96AC;
     text-decoration: line-through;
+
+    
 }
 .dekor{
     text-decoration: line-through;
+}
+main ,
+.color2 :hover{
+    text-decoration:none
+}
+main ,
+.color6 :hover{
+    text-decoration: none
 }
