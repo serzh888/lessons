@@ -45,7 +45,7 @@ header div{
     display: inline-block;
 }
 .containernav{
-    margin: 13px 120px 80px 120px;
+    margin: 13px 120px 80px 240px;
     
 }
 li:nth-child(3){
@@ -88,3 +88,8 @@ text-decoration: none;
 span.spam::after{
     content:'</Text>' ;
 }*/
+.spamcolor{
+    background-color: rgb(218, 210, 210);
+    text-decoration: none;
+    
+}
