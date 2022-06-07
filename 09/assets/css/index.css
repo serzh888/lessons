@@ -19,8 +19,11 @@ body{
     line-height: 48px;
     font-weight: 400;
 }
+.containernav{
+    text-align: center;
+}
 .fron {
-  font-family: Tourney;
+font-family: Tourney;
 font-weight: 600;
 font-size: 22px;
 line-height: 18px;
@@ -30,6 +33,10 @@ padding: 16px 50px 16px 0;
 }
 li {
  display: inline-block;
+ font-family: Staatliches;
+ font-weight: 400;
+font-size: 22px;
+line-height: 28px;
  padding-right: 10px;
  padding-top: 13px;
 }
@@ -44,21 +51,21 @@ display: inline-block;
 header div{
     display: inline-block;
 }
-.containernav{
-    margin: 13px 120px 80px 240px;
-    
-}
+
+
 li:nth-child(3){
 padding-right: 400px;
 }
 .arro{
     font-family:Farro ;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 300;
     display: inline-block;
-    letter-spacing: 0.04em;
-}
+    letter-spacing: 0.04em; 
+    
+   
+    }
 .pt{
     font-family: 'PT Sans';
     font-style: normal;
@@ -82,14 +89,22 @@ line-height: 48px;
 text-decoration: none;
 
 }
-/*span.spam::before{
-  content:'<Text>' ; 
-}
-span.spam::after{
-    content:'</Text>' ;
-}*/
+
 .spamcolor{
     background-color: rgb(218, 210, 210);
     text-decoration: none;
     
+}
+.contop{
+    margin-top: 83px;
+}
+.itl{
+    font-family: 'PT+Sans:ital';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    padding-top: 40px;
+    text-decoration: none;
+
 }
