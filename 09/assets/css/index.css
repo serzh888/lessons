@@ -62,7 +62,9 @@ padding-right: 400px;
     line-height: 30px;
     font-weight: 300;
     display: inline-block;
-    letter-spacing: 0.04em; 
+    letter-spacing: 0.04em;
+    width: 100px;
+    height: 20px; 
     
    
     }
