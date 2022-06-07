@@ -46,6 +46,7 @@ font-size:36px ;
 line-height: 48px;
 font-weight: 400;
 display: inline-block;
+margin-right: 10px;
 }
 
 header div{
@@ -54,17 +55,15 @@ header div{
 
 
 li:nth-child(3){
-padding-right: 400px;
+padding-right:550px;
 }
 .arro{
     font-family:Farro ;
-    font-size: 20px;
-    line-height: 30px;
+    font-family: 'Farro', sans-serif;
+    vertical-align:top;
     font-weight: 300;
+    font-size: 15px;
     display: inline-block;
-    letter-spacing: 0.04em;
-    width: 100px;
-    height: 20px; 
     
    
     }
