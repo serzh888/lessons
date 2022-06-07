@@ -7,3 +7,84 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+  
+}
+body{
+    font-family:PT Sans,Tourney;
+    color: black;
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 400;
+}
+.fron {
+  font-family: Tourney;
+font-weight: 600;
+font-size: 22px;
+line-height: 18px;
+display: inline-block;
+padding: 16px 50px 16px 0;
+
+}
+li {
+ display: inline-block;
+ padding-right: 10px;
+ padding-top: 13px;
+}
+h2{
+font-family:Francois One;
+font-size:36px ;
+line-height: 48px;
+font-weight: 400;
+display: inline-block;
+}
+
+header div{
+    display: inline-block;
+}
+.containernav{
+    margin: 13px 120px 80px 120px;
+    
+}
+li:nth-child(3){
+padding-right: 400px;
+}
+.arro{
+    font-family:Farro ;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    display: inline-block;
+    letter-spacing: 0.04em;
+}
+.pt{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    padding-top: 40px;
+}
+span{
+    text-decoration: underline;
+}
+.padd{
+    padding-top: 70px;
+}
+.ptt{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 48px;
+text-decoration: none;
+
+}
+/*span.spam::before{
+  content:'<Text>' ; 
+}
+span.spam::after{
+    content:'</Text>' ;
+}*/
