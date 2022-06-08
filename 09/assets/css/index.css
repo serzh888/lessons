@@ -10,6 +10,7 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
   
 }
 body{
@@ -20,8 +21,9 @@ body{
     font-weight: 400;
 }
 .containernav{
-    text-align: center;
-    margin-top: 13px;
+   vertical-align: middle;
+   padding-top: 13px;
+   margin-top: 13px;
     
 }
 .fron {
@@ -30,7 +32,7 @@ font-weight: 600;
 font-size: 22px;
 line-height: 18px;
 display: inline-block;
-padding: 16px 50px 16px 0;
+
 letter-spacing: 0.04em;
 
 }
@@ -41,7 +43,7 @@ li {
 font-size: 22px;
 line-height: 28px;
  padding-right: 10px;
- padding-top: 13px;
+ padding-top: 0;
 }
 h2{
 font-family:Francois One;
@@ -118,5 +120,5 @@ text-decoration: none;
 }
 .img{
     vertical-align: middle;
-   padding-top: 4px;
+   display: inline-block;
 }
