@@ -1,0 +1,310 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Courier, monospace;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2F281E;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.containerim {
+    margin: 17px 120px 70px;
+    display: inline-block;
+
+}
+
+header {
+    text-align: center;
+
+}
+
+header nav {
+    padding-top: 9px;
+}
+
+.inlblok {
+    display: inline-block;
+
+}
+
+.nav {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+    text-decoration: none;
+
+}
+
+.nav2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FF9900;
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+
+.navrite {
+    padding-right: 10px;
+}
+
+li {
+    display: inline-block;
+
+}
+
+.imgpadd {
+    width: max-content;
+}
+
+.img1 {
+    padding-top: 7px;
+    padding-right: 13px;
+}
+
+.img2 {
+    padding-top: 10px;
+}
+
+header nav {
+    padding: 9px 198px;
+}
+
+.left {
+    Width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+
+
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+    padding-bottom: 30px;
+
+
+}
+
+.toptext {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    padding-bottom: 20px;
+
+}
+
+.containerbutt {
+
+    width: 180px;
+    height: 50px;
+    background-color: #FF9900;
+    border: none;
+
+
+}
+
+.rihht {
+    Width: 644px;
+    display: inline-block;
+    vertical-align: middle;
+
+
+
+}
+
+.butthed {
+    width: 110px;
+    height: 46px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+
+
+
+}
+
+.butthed2 {
+    width: 110px;
+    height: 46px;
+    margin-right: 36px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+
+}
+
+.texbutt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.texbutt2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F281E;
+    text-decoration: none;
+
+
+}
+
+.con1-2 {
+    vertical-align: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.texth2 {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 540px;
+
+}
+
+.mar {
+    margin-top: 100px;
+}
+
+.blok1 {
+    display: flex;
+    margin-top: 50px;
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.text2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.card {
+    padding-right: 40px;
+    max-width: 270px;
+
+
+
+
+}
+
+.butt {
+    margin-top: 70px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+
+.contfooter{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blokfooter{
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.textf{
+    font-family: 'Gotham';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #2F281E;
+}
+.textsmal{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #544837;
+}
+input{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+
+.blok2{
+    margin-top: 30px;
+}
+.blok2 p{
+    padding-top: 15px;
+}
+
+
+.lastblok{
+    width: 250px;  
+}
+.lastblok p {
+    margin-bottom: 25px;
+}
+.lastblok input{
+    margin-bottom: 25px;
+}
