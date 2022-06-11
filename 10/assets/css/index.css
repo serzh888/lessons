@@ -255,35 +255,39 @@ h1 {
 }
 
 
-.contfooter{
+.contfooter {
     margin-top: 100px;
     margin-bottom: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.blokfooter{
+
+.blokfooter {
     max-width: 1200px;
     flex-direction: row;
     justify-content: space-between;
 }
-.textf{
+
+.textf {
     font-family: 'Gotham';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-color: #2F281E;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
 }
-.textsmal{
+
+.textsmal {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-color: #544837;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
 }
-input{
+
+input {
     width: 250px;
     height: 50px;
     border: 1px solid #BCD0E5;
@@ -291,20 +295,28 @@ input{
 }
 
 
-.blok2{
+.blok2 {
     margin-top: 30px;
 }
-.blok2 p{
+
+.blok2 p {
     padding-top: 15px;
 }
 
 
-.lastblok{
-    width: 250px;  
+.lastblok {
+    width: 250px;
 }
+
 .lastblok p {
     margin-bottom: 25px;
 }
-.lastblok input{
+
+.lastblok input {
     margin-bottom: 25px;
+}
+
+.blokcolor{
+  background:-moz-linear-gradient(179.61deg, rgba(255, 229, 210, 0.629261) 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+    
 }
