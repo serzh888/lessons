@@ -340,6 +340,9 @@ input ::placeholder {
 
 .bimg {
     background-image: url(../image/bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 75px;
+    
 
 }
 footer{
