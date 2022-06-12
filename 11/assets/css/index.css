@@ -5,3 +5,85 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 570px;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1C1C1C;
+    margin:35px 335px 20px 36px;
+}
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+}
+.dis{
+    display: inline-block;
+}
+form{
+    padding: 35px;
+}
+.divclass{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    Width:245px;
+    Height:38px;
+}
+.inputmail{
+    Width:500px;
+    Height:38px;
+}
+input[type="checkbox"]{
+    display: none;
+}
+.checkbox{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+input[type="checkbox"]:checked + label .checkbox{
+
+width: 20px;
+height: 20px;
+border-radius: 50%;
+border: 1px solid green;
+}
+button{
+    background-color: #007BFF;
+    width: 500px;
+    height: 38px;
+}
+.ptexy{
+    text-align: center;
+}
+.p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #969696;
+
+}
+.bord{
+    border-top:1px solid  #E4E4E4;
+}

@@ -5,9 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
+    <section class="container">
+        <h1>Create an Account</h1>
+        <form action="">
+            <div class="divclass">
+            <div>
+                <h2>First Name</h2>
+                 <div> <input type="text" class="input"></div> 
+            </div>
+
+            <div>
+                <h2>Last Name</h2> 
+                <div><input type="text" class="input"></div> 
+            </div>
+            </div>
+            <div>
+                <h2>E-mail</h2>
+               <div> <input type="text" class="inputmail"></div>
+               <p>We'll never share your email with anyone else.</p>
+            </div>
+            
+            <div class="dis">
+                <input type="checkbox" id="chek">
+                <label for="chek">
+                    <span class="checkbox"></span>
+                    <span>Male</span>
+                </label>
+            </div>
+            <div class="dis">
+                <input type="checkbox" id="chek1">
+                <label for="chek1">
+                    <span class="checkbox"></span>
+                    <span>Female</span>
+                </label>
+            </div>
+            <div>
+                     <div class="dis">
+                         <h2>Country</h2>
+                         <select class="input">
+                            <option value="1">Ukraine</option>
+                            <option value="2">England</option>
+                            <option value="3">Poland</option>
+                            <option value="4">Netherlands</option>
+                            <option value="5">Finland</option>
+                         </select> 
+                     </div>
+                <div class="dis">
+                     <h2>City</h2>
+                    <input type="text" class="input">
+                </div>
+            </div>
+            
+                <button>Sign Up</button>
+            <p class="ptexy">By clicking the 'Sign Up' button, you confirm that you accept our</p>
+            <div class="ptexy "><a href="#">Terms of Use</a><samp class="p">and</samp>  <a href="#">Privacy Policy</a></div>
+                 <div class="ptexy bord">
+                    <h2 class="dis">Have an account?</h2> 
+                    <a href="#" class="dis">Log In </a>
+                 </div>
+             </form>
+        </section>
     
 </body>
 </html>
