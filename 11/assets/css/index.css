@@ -19,7 +19,7 @@ h1{
     font-size: 24px;
     line-height: 32px;
     color: #1C1C1C;
-    margin:35px 335px 20px 36px;
+    margin:35px 335px 0 36px;
 }
 p{
     font-family: 'Roboto';
@@ -29,6 +29,21 @@ p{
     line-height: 18px;
     letter-spacing: -0.1px;
     color: #969696;
+}
+.textpadd{
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+h2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+letter-spacing: -0.2px;
+color: #545454;
+padding-top: 20px;
+padding-bottom: 7px;
 }
 .dis{
     display: inline-block;
@@ -70,9 +85,12 @@ button{
     background-color: #007BFF;
     width: 500px;
     height: 38px;
+   margin-top: 20px;
+    margin-bottom: 22px;
 }
 .ptexy{
     text-align: center;
+    
 }
 .p{
     font-family: 'Roboto';
@@ -86,4 +104,14 @@ button{
 }
 .bord{
     border-top:1px solid  #E4E4E4;
+    margin-top: 20px;
+}
+.aa{
+    padding-right: 7px;
+}
+.aa2{
+    padding-left: 7px;
+}
+.h2rite{
+    padding-right: 20px;
 }
