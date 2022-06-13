@@ -32,7 +32,6 @@ p{
 }
 .textpadd{
     padding-top: 7px;
-    padding-bottom: 20px;
 }
 h2{
     font-family: 'Roboto';
@@ -61,7 +60,8 @@ form{
 }
 input{
     border: 1px solid #E4E4E4;
-    outline:none
+    outline:none;
+    border-radius: 6px;
 }
 input:hover{
     border-color: #007BFF;
@@ -70,7 +70,7 @@ input:active{
     border-color: tomato;
 }
 input:focus{
-    border-color: yellow;
+    border-color: #007BFF;
 }
 .input{
     Width:245px;
@@ -108,6 +108,7 @@ button{
     background: #007BFF;
     border: 1px solid #E4E4E4;
     border-radius: 6px;
+   color:  #FFFFFF;
 }
 .ptexy{
     text-align: center;
@@ -136,7 +137,7 @@ button{
     text-decoration: none;
 }
 .h2rite{
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .textspam{
     font-family: 'Roboto';
@@ -152,4 +153,14 @@ select{
 }
  .vert{
     vertical-align: middle;
+ }
+ .ctyllog{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.1px; 
+    color: #007BFF;
+    
  }
