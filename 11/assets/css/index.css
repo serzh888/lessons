@@ -47,6 +47,7 @@ padding-bottom: 7px;
 }
 .dis{
     display: inline-block;
+    text-decoration: none;
 }
 .padspan{
     padding-right: 21px;
@@ -128,9 +129,11 @@ button{
 }
 .aa{
     padding-right: 7px;
+    text-decoration: none;
 }
 .aa2{
     padding-left: 7px;
+    text-decoration: none;
 }
 .h2rite{
   margin-right: 40px;
