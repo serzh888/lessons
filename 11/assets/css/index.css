@@ -7,6 +7,11 @@
 }
 body{
     overflow-x: hidden;
+    background: #E5E5E5;
+}
+section{
+    
+background-color:#FFFFFF;
 }
 .container{
     max-width: 570px;
@@ -19,7 +24,7 @@ h1{
     font-size: 24px;
     line-height: 32px;
     color: #1C1C1C;
-    margin:35px 335px 0 36px;
+    padding:35px 335px 0 36px;
 }
 p{
     font-family: 'Roboto';
@@ -163,4 +168,10 @@ select{
     letter-spacing: -0.1px; 
     color: #007BFF;
     
+ }
+ .inpa1{
+    padding: 7px 38px 7px 10px;
+ }
+ .inpa2{
+    padding: 8px 38px 8px 10px;
  }
