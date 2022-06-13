@@ -147,4 +147,6 @@ button{
 select{
     border: 1px solid #E4E4E4;
 }
- 
+ .vert{
+    vertical-align: middle;
+ }
