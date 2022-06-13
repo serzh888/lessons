@@ -134,15 +134,14 @@ input[type="radio"]:checked+label .checkbox {
 }
 
 button {
-    background-color: #007BFF;
-    width: 500px;
-    height: 38px;
+    width: 100%;;
     margin-top: 20px;
     margin-bottom: 22px;
     background: #007BFF;
     border: 1px solid #E4E4E4;
     border-radius: 6px;
     color: #FFFFFF;
+    padding: 8px 10px;
 }
 
 .ptexy {
