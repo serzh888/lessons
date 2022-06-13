@@ -5,32 +5,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden;
     background: #E5E5E5;
 }
-section{
-    
-background-color:#FFFFFF;
+
+section {
+
+    background-color: #FFFFFF;
 
 }
-.container{
+
+.container {
     max-width: 570px;
     margin: 0 auto;
 }
-.conmar{
+
+.conmar {
     margin-top: 55px;
 }
-h1{
+
+h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     color: #1C1C1C;
-    padding:35px 335px 0 36px;
+    padding: 35px 335px 0 36px;
 }
-p{
+
+p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -39,92 +45,109 @@ p{
     letter-spacing: -0.1px;
     color: #969696;
 }
-.textpadd{
+
+.textpadd {
     padding-top: 7px;
 }
-h2{
+
+h2 {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 22px;
-letter-spacing: -0.2px;
-color: #545454;
-padding-top: 20px;
-padding-bottom: 7px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #545454;
+    padding-top: 20px;
+    padding-bottom: 7px;
 }
-.dis{
+
+.dis {
     display: inline-block;
     text-decoration: none;
 }
-.padspan{
+
+.padspan {
     padding-right: 21px;
 }
-form{
+
+form {
     padding: 35px;
 }
-.divclass{
+
+.divclass {
     display: flex;
     justify-content: space-between;
 }
-input{
+
+input {
     border: 1px solid #E4E4E4;
-    outline:none;
+    outline: none;
     border-radius: 6px;
-    
+
 }
-input:hover{
+
+input:hover {
     border-color: #007BFF;
 }
-input:active{
+
+input:active {
     border-color: tomato;
 }
-input:focus{
+
+input:focus {
     border-color: #007BFF;
 }
-.input{
-    Width:245px;
-    Height:38px;
-}
-.inputmail{
-    Width:500px;
-    Height:38px;
-}
-input[type="checkbox"]{
-    display:none;
-   
-}
-.checkbox{
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  border: 1px solid #E4E4E4;
+
+.input {
+    Width: 245px;
+    Height: 38px;
 }
 
-input[type="checkbox"]:checked + label .checkbox{
-
-width: 20px;
-height: 20px;
-border-radius: 50%;
-border: 5px solid #007BFF;
+.inputmail {
+    Width: 500px;
+    Height: 38px;
 }
-button{
+
+input[type="checkbox"] {
+    display: none;
+
+}
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #E4E4E4;
+}
+
+input[type="checkbox"]:checked+label .checkbox {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid #007BFF;
+}
+
+button {
     background-color: #007BFF;
     width: 500px;
     height: 38px;
-   margin-top: 20px;
+    margin-top: 20px;
     margin-bottom: 22px;
     background: #007BFF;
     border: 1px solid #E4E4E4;
     border-radius: 6px;
-   color:  #FFFFFF;
+    color: #FFFFFF;
 }
-.ptexy{
+
+.ptexy {
     text-align: center;
-    
+
 }
-.p{
+
+.p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -134,22 +157,27 @@ button{
     color: #969696;
 
 }
-.bord{
-    border-top:1px solid  #E4E4E4;
+
+.bord {
+    border-top: 1px solid #E4E4E4;
     margin-top: 20px;
 }
-.aa{
+
+.aa {
     padding-right: 7px;
     text-decoration: none;
 }
-.aa2{
+
+.aa2 {
     padding-left: 7px;
     text-decoration: none;
 }
-.h2rite{
-  margin-right: 10px;
+
+.h2rite {
+    margin-right: 10px;
 }
-.textspam{
+
+.textspam {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -158,25 +186,30 @@ button{
     letter-spacing: -0.2px;
     color: #545454;
 }
-select{
+
+select {
     border: 1px solid #E4E4E4;
 }
- .vert{
+
+.vert {
     vertical-align: middle;
- }
- .ctyllog{
+}
+
+.ctyllog {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
-    letter-spacing: -0.1px; 
+    letter-spacing: -0.1px;
     color: #007BFF;
-    
- }
- .inpa1{
+
+}
+
+.inpa1 {
     padding: 7px 38px 7px 10px;
- }
- .inpa2{
+}
+
+.inpa2 {
     padding: 8px 38px 8px 10px;
- }
+}
