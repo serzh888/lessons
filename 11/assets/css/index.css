@@ -112,7 +112,7 @@ input:focus {
     Height: 38px;
 }
 
-input[type="checkbox"] {
+input[type="radio"] {
     display: none;
 
 }
@@ -125,7 +125,7 @@ input[type="checkbox"] {
     border: 1px solid #E4E4E4;
 }
 
-input[type="checkbox"]:checked+label .checkbox {
+input[type="radio"]:checked+label .checkbox {
 
     width: 20px;
     height: 20px;
