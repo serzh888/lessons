@@ -48,12 +48,28 @@ padding-bottom: 7px;
 .dis{
     display: inline-block;
 }
+.padspan{
+    padding-right: 21px;
+}
 form{
     padding: 35px;
 }
 .divclass{
     display: flex;
     justify-content: space-between;
+}
+input{
+    border: 1px solid #E4E4E4;
+    outline:none
+}
+input:hover{
+    border-color: #007BFF;
+}
+input:active{
+    border-color: tomato;
+}
+input:focus{
+    border-color: yellow;
 }
 .input{
     Width:245px;
@@ -64,14 +80,15 @@ form{
     Height:38px;
 }
 input[type="checkbox"]{
-    display: none;
+    display:none;
+   
 }
 .checkbox{
   display: inline-block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 1px solid red;
+  border: 1px solid #E4E4E4;
 }
 
 input[type="checkbox"]:checked + label .checkbox{
@@ -79,7 +96,7 @@ input[type="checkbox"]:checked + label .checkbox{
 width: 20px;
 height: 20px;
 border-radius: 50%;
-border: 1px solid green;
+border: 5px solid #007BFF;
 }
 button{
     background-color: #007BFF;
@@ -87,6 +104,9 @@ button{
     height: 38px;
    margin-top: 20px;
     margin-bottom: 22px;
+    background: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
 }
 .ptexy{
     text-align: center;
@@ -115,3 +135,16 @@ button{
 .h2rite{
     padding-right: 20px;
 }
+.textspam{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #545454;
+}
+select{
+    border: 1px solid #E4E4E4;
+}
+ 
