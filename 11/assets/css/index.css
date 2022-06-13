@@ -20,10 +20,13 @@ section {
 .container {
     max-width: 570px;
     margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 6px;
 }
 
 .conmar {
     margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 h1 {
