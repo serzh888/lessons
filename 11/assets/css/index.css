@@ -67,6 +67,7 @@ input{
     border: 1px solid #E4E4E4;
     outline:none;
     border-radius: 6px;
+    
 }
 input:hover{
     border-color: #007BFF;
