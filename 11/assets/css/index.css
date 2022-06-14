@@ -51,6 +51,7 @@ p {
 
 .textpadd {
     padding-top: 7px;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -75,7 +76,8 @@ h2 {
 }
 
 form {
-    padding: 35px;
+   padding-left: 35px;
+   padding-right: 35px;
 }
 
 .divclass {
@@ -105,6 +107,7 @@ input:focus {
 .input {
     Width: 245px;
     Height: 38px;
+    border-radius: 6px;
 }
 
 .inputmail {
@@ -168,11 +171,27 @@ button {
 .aa {
     padding-right: 7px;
     text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #007BFF;
 }
 
 .aa2 {
     padding-left: 7px;
     text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #007BFF;
 }
 
 .h2rite {
@@ -214,4 +233,14 @@ select {
 
 .inpa2 {
     padding: 8px 10px 8px 10px;
+}
+.texbut{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
 }
