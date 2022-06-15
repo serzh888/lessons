@@ -132,7 +132,7 @@ text-decoration: none;
     background: #000000;
     margin-bottom: 20px;
 }
-.nav1{
+.nav1 a{
     font-family: 'Francois One';
     font-style: normal;
     font-weight: 400;
@@ -144,4 +144,8 @@ text-decoration: none;
     border: 385px auto;
     border-bottom: 1px solid #BDBDBD;
     padding-bottom: 10px;
+    text-decoration: none;
+}
+.marnav{
+    margin-bottom: 70px;
 }
