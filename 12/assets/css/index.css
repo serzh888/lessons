@@ -11,6 +11,12 @@
     
   
 }
+.container1{
+    max-width: 385px;
+    margin: 0 auto;
+  
+}
+
 body{
     font-family:PT Sans,Tourney;
     color: black;
@@ -125,4 +131,17 @@ text-decoration: none;
     height: 8px;
     background: #000000;
     margin-bottom: 20px;
+}
+.nav1{
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    border: 385px auto;
+    border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 10px;
 }
