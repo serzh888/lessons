@@ -23,6 +23,9 @@ header {
     width: 100%;
 
 }
+main{
+    padding-top: 70px;
+}
 
 main .container {
     padding-top: 67px;
@@ -53,7 +56,6 @@ main .container {
 .containernav {
     vertical-align: middle;
     padding-top: 13px;
-    margin-bottom: 70px;
 
 }
 
@@ -184,8 +186,13 @@ span {
     padding-left: 10px;
 }
 
+
 .nav1 {
-    padding-bottom: 10px;
+    padding-bottom: 10px;   
+}
+.bord{ 
+    border: 0 0 365px 0;  
+    border-bottom: 1px solid #BDBDBD;
 
 }
 
