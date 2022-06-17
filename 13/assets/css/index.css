@@ -124,3 +124,11 @@ header a {
     footer div a+a{
         padding-left: 10px;
     }
+   header .border a:hover{
+    background-color: #18B5DC;
+    color: white;
+    border: #18B5DC;
+   }
+   header div nav ul li:hover{
+    color: #18B5DC;
+   }

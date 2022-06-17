@@ -7,7 +7,6 @@
 }
 
 body {
-    width: 1440px;
     font-family: PT Sans, Tourney;
     color: black;
     font-size: 28px;
@@ -15,7 +14,7 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     background-color: white;
-    margin: 0 auto;
+   
 
 }
 
@@ -54,9 +53,11 @@ main{
 
 
 .containernav {
-    vertical-align: middle;
     padding-top: 13px;
-    margin-left: 120px;
+    display: flex;
+    align-items: center;
+
+    
 
 }
 
@@ -159,13 +160,6 @@ span {
 
 }
 
-.img {
-    vertical-align: middle;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: 13px;
-}
 
 .line {
     width: 100px;
@@ -194,7 +188,7 @@ span {
 .bord{ 
     border:365px ;
     border-bottom: 1px solid #BDBDBD;
-     max-width: 100%;
+    width: 100%;
 
 
 }
