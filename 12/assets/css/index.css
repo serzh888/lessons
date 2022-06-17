@@ -31,9 +31,9 @@ main .container {
     padding-top: 67px;
 }
 
+
 .container {
     max-width: 1200px;
-    width: 100%;
     margin: 0 auto;
 
 
@@ -164,6 +164,9 @@ span {
 .img {
     vertical-align: middle;
     display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 13px;
 }
 
 .line {
@@ -191,8 +194,10 @@ span {
     padding-bottom: 10px;   
 }
 .bord{ 
-    border: 0 0 365px 0;  
+    border:365px ;
     border-bottom: 1px solid #BDBDBD;
+     max-width: 100%;
+
 
 }
 
@@ -212,4 +217,10 @@ span {
     position: -webkit-sticky;
     position: sticky;
     top: 67px;
+}
+.stiked2 {
+    position: absolute;
+}
+.blok{
+    position: relative;
 }
