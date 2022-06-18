@@ -79,6 +79,7 @@ li {
     line-height: 28px;
     padding-right: 10px;
     padding-top: 0;
+   
 }
 
 h2 {
@@ -98,7 +99,7 @@ header div {
 
 
 li:nth-child(3) {
-    padding-right: 550px;
+    padding-right: 630px;
 }
 
 .arro {
