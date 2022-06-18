@@ -42,6 +42,7 @@ header li {
 padding-right: 30px;
 padding-top: 28px;
 padding-bottom: 28px;
+cursor: pointer;
 }
 header a {
     font-family: 'Lato';
@@ -55,6 +56,7 @@ header a {
     border: 1px solid #3C3C3C;
     border: 132px 42px;
     padding: 10px 20px;
+    cursor: pointer;
     }
     header .border{
       margin-top: 29px;
@@ -110,6 +112,7 @@ header a {
         line-height: 22px;
         text-transform: uppercase;
         color: #3C3C3C;
+        cursor: pointer;
     }
     footer div nav li+li{
         padding-left: 30px;
@@ -133,6 +136,7 @@ header a {
     background-color: transparent;
     width: 270px;
     height: 270px;
+    cursor: pointer;
    }
    .cardinn{
     position: relative;
