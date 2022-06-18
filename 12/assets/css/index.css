@@ -19,6 +19,8 @@ body {
 }
 
 header {
+    display: flex;
+    justify-items: center;
     position: fixed;
     width: 100%;
 
@@ -31,12 +33,9 @@ main{
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    
-    
-
+   
 
 }
-
 .container2 {
     max-width: 785px;
     margin: 0 auto;
@@ -56,6 +55,8 @@ main{
     padding-top: 13px;
     display: flex;
     align-items: center;
+    display: flex;
+    justify-items: center
 
     
 
@@ -67,7 +68,7 @@ main{
     font-size: 22px;
     line-height: 18px;
     display: inline-block;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04em;;
 
 }
 
