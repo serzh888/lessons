@@ -23,6 +23,8 @@ header {
     justify-items: center;
     position: fixed;
     width: 100%;
+    background-color: white;
+    vertical-align: middle;
 
 }
 main{
@@ -33,6 +35,7 @@ main{
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    vertical-align: middle;
    
 
 }
@@ -56,7 +59,8 @@ main{
     display: flex;
     align-items: center;
     display: flex;
-    justify-items: center
+    justify-items: center;
+    background-color: white;
 
     
 
@@ -108,9 +112,9 @@ li:nth-child(3) {
     font-family: 'Farro', sans-serif;
     vertical-align: top;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 20px;
     display: inline-block;
-    line-height: 15px;
+    line-height: 1px;
     letter-spacing: 0.04em;
 
 
@@ -214,7 +218,7 @@ span {
 }
 .stiked2 {
     position: absolute;
-    left: 53.39%;
+    left: 54.39%;
     right: -9.17%;
     top: 20.87%;
     bottom: 70.46%;
