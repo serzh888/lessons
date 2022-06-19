@@ -170,7 +170,9 @@ header a {
     cursor: pointer;
     width: 46px;
     height: 46px;
+    margin-right: 10px;
    }
+
    .card2:hover .cardinn{
     transform: rotateY(180deg);
    }
