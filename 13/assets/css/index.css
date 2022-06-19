@@ -165,3 +165,27 @@ header a {
     transform: rotateY(180deg);
     background-color: #18B5DC;
    }
+   .card2 {
+    background-color: transparent;
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+   }
+   .card2:hover .cardinn{
+    transform: rotateY(180deg);
+   }
+   .marg, .card-back2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   }
+   .card-back2{
+    transform: rotateY(180deg);
+   }
+   .seti{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   }
