@@ -20,7 +20,6 @@ body {
 
 header {
     display: flex;
-    justify-items: center;
     position: fixed;
     width: 100%;
     background-color: white;
@@ -30,7 +29,6 @@ header {
 main{
     padding-top: 135px;
 }
-
 
 .container {
     max-width: 1200px;
@@ -72,8 +70,7 @@ main{
     font-size: 22px;
     line-height: 18px;
     display: inline-block;
-    letter-spacing: 0.04em;;
-
+    letter-spacing: 0.04em;
 }
 
 li {
@@ -83,7 +80,7 @@ li {
     font-size: 22px;
     line-height: 28px;
     padding-right: 10px;
-    padding-top: 0;
+    
    
 }
 

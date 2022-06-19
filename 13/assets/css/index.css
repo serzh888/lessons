@@ -173,6 +173,13 @@ header a {
     margin-right: 10px;
    }
 
+   .line{
+    width: 45px;
+    height: 4px;
+    background-color: #DDDBDB;
+    margin: auto;
+    margin-top: 20px;
+   }
    .card2:hover .cardinn{
     transform: rotateY(180deg);
    }
