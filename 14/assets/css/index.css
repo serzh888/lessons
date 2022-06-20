@@ -23,7 +23,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    transition: transform 0.8s;
+    transition: transform 1s;
     transform-style: preserve-3d;
 }
 
@@ -38,13 +38,13 @@
 }
 .cardfirst{
     border: 5px solid black;
-    border-radius: 5%;
+    border-radius: 10%;
 }
 .card-back{
     width: 150px;
     height: 200px;
     border: 10px solid rgb(207, 201, 189);
-    border-radius: 5%;
+    border-radius: 10%;
     background-color: aqua;
     transform: rotateY(180deg);
 }
@@ -75,6 +75,12 @@
     bottom: 0;
     transform: rotate(180deg);
     font-size:30px;
+}
+.card-group{
+    animation: flip .3s ease;  
+}
+.card-group2{
+    animation: flip .3s ease .4s;  
 }
 
 
