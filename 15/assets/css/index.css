@@ -17,6 +17,9 @@ header{
         display: flex;
       border-bottom: 1px solid #EFEEF3;
 }
+footer{
+    background-color: #16133D;
+}
 .container{
     width: 1440px;
     margin: 0 auto;
@@ -25,6 +28,7 @@ header{
     Width: 1170px;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 h1{
@@ -34,6 +38,8 @@ h1{
     font-size: 35px;
     line-height: 35px;
     color: #16133D;
+}
+.marg1{
     margin-top: 25px;
 }
 .text{
@@ -108,4 +114,15 @@ margin-bottom: 15px;
     border: 1px solid #E5EAF4;
     border-radius: 16px;
     padding: 13px 18px;
+}
+.black{
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.flex{
+    display: flex;
+   vertical-align: middle;
+}
+.logo2{
+    margin: 43px 13px 43px 136px;
 }
