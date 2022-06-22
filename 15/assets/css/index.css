@@ -73,7 +73,14 @@ h2{
      width:370px ;
      height:340px ;
      border: 1px solid #E5EAF4;
+     border-radius: 8px;
 }
+.blok:hover{
+    width:370px ;
+     height:340px ;
+     border: 1px solid #3DB370;
+     border-radius: 8px;
+} 
 .border{
      width:64px ;
      height:64px ;
@@ -105,8 +112,21 @@ margin-bottom: 15px;
     font-size: 16px;
     line-height: 19px;
     color: #3DB370;
-    margin-top: 30px;
+    padding-top: 30px;
+    text-decoration: none;
 
+}
+.blok svg{
+    fill:#007FFC;
+    stroke:#007FFC;
+    transition: fill .3s ease;
+}
+.blok:hover svg{
+    fill:#52C29D;
+   stroke: #52C29D;
+}
+.marg{
+    margin-top: 30px;
 }
 .border2{
     width:64px ;
