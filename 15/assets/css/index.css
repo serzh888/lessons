@@ -157,5 +157,30 @@ margin-bottom: 15px;
     padding: 9px;
 }
 .borderfirst{
+  
     margin-left: 135px;
+}
+.card{
+    background-color: transparent;
+    cursor: pointer;
+}
+.card2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.card:hover .card2{
+    transform: rotateY(180deg);
+}
+.blak.green{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.green{
+    transform: rotateY(180deg);
 }
