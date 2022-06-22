@@ -164,6 +164,7 @@ margin-bottom: 15px;
 .card{
     background-color: transparent;
     cursor: pointer;
+    margin-left: 136px;
    }
    .cardinn{
     position: relative;
