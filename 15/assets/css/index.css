@@ -126,4 +126,15 @@ margin-bottom: 15px;
 .logo2{
     margin: 43px 13px 43px 136px;
 }
-
+.border3{
+    width: 38px;
+    height: 38px;
+    border: 1px solid #E5EAF4;
+    background: #EFEEF3;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.borderfirst{
+    margin-left: 135px;
+}
