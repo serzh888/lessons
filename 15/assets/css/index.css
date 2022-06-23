@@ -15,8 +15,9 @@ body{
     color: #16133D;
     }
 header{
-        display: flex;
+       
       border-bottom: 1px solid #EFEEF3;
+      
 }
 footer{
     background-color: #16133D;
@@ -134,11 +135,17 @@ margin-bottom: 15px;
     height:64px ;
     border: 1px solid #E5EAF4;
     border-radius: 16px;
-    padding: 13px 18px;
 }
+.blok:hover .border2{
+    border: #3DB370;
+}
+
 .black{
     color: #FFFFFF;
     margin-top: 40px;
+}
+.padd{
+    padding: 13px 18px;
 }
 .flex{
     display: flex;
