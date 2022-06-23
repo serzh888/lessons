@@ -82,6 +82,7 @@ h2{
      height:340px ;
      border: 1px solid #3DB370;
      border-radius: 8px;
+
 } 
 .border{
      width:64px ;
@@ -136,8 +137,10 @@ margin-bottom: 15px;
     border: 1px solid #E5EAF4;
     border-radius: 16px;
 }
-.blok:hover .border2{
-    border: #3DB370;
+.blok:hover .border{
+   
+border: 1px solid #3DB370;
+border-radius: 16px;
 }
 
 .black{
