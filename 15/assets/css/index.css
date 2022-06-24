@@ -96,7 +96,7 @@ h2 {
     height: 340px;
     border: 1px solid #3DB370;
     border-radius: 8px;
-    transition-duration: 3s;
+    transition-duration: 2s;
     transition-timing-function: ease;
     
 
@@ -145,14 +145,14 @@ h2 {
 .blok svg {
     fill: #007FFC;
     stroke: #007FFC;
-    transition: fill;
+    transition: fill stroke;
     
 }
 
 .blok:hover svg {
     fill: #52C29D;
     stroke: #52C29D;
-    transition-duration: 3s;
+    transition-duration: 2s;
      transition-timing-function: ease;
 
 }
